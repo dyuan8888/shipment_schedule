@@ -1,0 +1,1681 @@
+1558335029736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.wOprUKa69avH"
+1558335030290	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558335030290	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558335030290	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558335033007	Marionette	INFO	Listening on port 12818
+1558335033069	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 2872, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 2872, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12944, Chrome_ChildThread] WARNING: pipe[ Cehrirlodr :6 410992:,  fCihlreo mze:_/CbhuiillddT/hbrueiald]d /WsArRcN/IiNpGc:/ cphirpoem ieurmr/osrr:c /1c0h9: filer ozm:/buiel/dc/obmumiolnd//isprcc/i_pcc/chromihuamn/nserlc_/wcihnr.ocmce,/ cloimnmon/ipc_ceh a3n3n2e
+l_win.cc, line [3C3h2
+[Child [Parent 2872, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 2532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Chil1558335746215	Marionette	INFO	Stopped listening on port 12818
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFE2A61ECA0] ANOMALY: meaningless REX prefix used
+[0x7FFE2A61ED90] ANOMALY: meaningless REX prefix used
+[0x7FFE2978AF60] ANOMALY: meaningless REX prefix used
+[0x7FFE2979E030] ANOMALY: meaningless REX prefix used
+[0x7FFE2975E050] ANOMALY: meaningless REX prefix used
+[0x7FFE29762900] ANOMALY: meaningless REX prefix used
+[0x7FFE2A709D00] ANOMALY: meaningless REX prefix used
+[0x7FFE2A70A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFE2C335240] ANOMALY: meaningless REX prefix used
+[0x7FFE2C3350A0] ANOMALY: meaningless REX prefix used
+[0x7FFE2C335060] ANOMALY: meaningless REX prefix used
+annel_win.cc, line 332
+[Child 16296, Chrome_C[Parent 15916, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9224,[Parent 15916, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Chi1558335410761	Marionette	INFO	Stopped listening on port 13333
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 142
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFE2A61ECA0] ANOMALY: meaningless REX prefix used
+[0x7FFE2A61ED90] ANOMALY: meaningless REX prefix used
+[0x7FFE2978AF60] ANOMALY: meaningless REX prefix used
+[0x7FFE2979E030] ANOMALY: meaningless REX prefix used
+[0x7FFE2975E050] ANOMALY: meaningless REX prefix used
+[0x7FFE29762900] ANOMALY: meaningless REX prefix used
+[0x7FFE2A709D00] ANOMALY: meaningless REX prefix used
+[0x7FFE2A70A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFE2C335240] ANOMALY: meaningless REX prefix used
+[0x7FFE2C3350A0] ANOMALY: meaningless REX prefix used
+[0x7FFE2C335060] ANOMALY: meaningless REX prefix used
+1558335443711	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.Zy1UvkXEBsLW"
+1558335444204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558335444204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558335444204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558335446576	Marionette	INFO	Listening on port 13475
+1558335447049	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7501: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7487: TypeError: document.getElementById(...) is null
+[Parent 6852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 6852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ip[Child 73c8/8c,h rCohmrioum/src/mceh_rCohmieldTh/rceoammon/ipc_dc]h aWnAnReNlI_NwGi:n .pcic,p e erlrionre:  31309:2 
+file z:/bui[Chlidl/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child [Parent 6852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 41558335502465	Marionette	INFO	Stopped listening on port 13475
+[GP
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+U
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFE2A61ECA0] ANOMALY: meaningless REX prefix used
+[0x7FFE2A61ED90] ANOMALY: meaningless REX prefix used
+[0x7FFE2978AF60] ANOMALY: meaningless REX prefix used
+[0x7FFE2979E030] ANOMALY: meaningless REX prefix used
+[0x7FFE2975E050] ANOMALY: meaningless REX prefix used
+[0x7FFE29762900] ANOMALY: meaningless REX prefix used
+[0x7FFE2A709D00] ANOMALY: meaningless REX prefix used
+[0x7FFE2A70A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFE2C335240] ANOMALY: meaningless REX prefix used
+[0x7FFE2C3350A0] ANOMALY: meaningless REX prefix used
+[0x7FFE2C335060] ANOMALY: meaningless REX prefix used
+1558342897334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.zBHUrosL8OEs"
+1558342897978	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558342897979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558342897979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558342900063	Marionette	INFO	Listening on port 4076
+1558342900130	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 13840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/b[uCihlid/builld/src/ipc/chrdomium 16176, Chrome_ChildTh/rserca/dchrom]e/comm oWnA/RiNpIc_chNannel_wiG: pipe error: n.cc, line 3109: file z3:2/
+build/build/src[/Cihpic/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16[Parent 13840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child1558342937365	Marionette	INFO	Stopped listening on port 4076
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 16228, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFE2A61ECA0] ANOMALY: meaningless REX prefix used
+[0x7FFE2A61ED90] ANOMALY: meaningless REX prefix used
+[0x7FFE2978AF60] ANOMALY: meaningless REX prefix used
+[0x7FFE2979E030] ANOMALY: meaningless REX prefix used
+[0x7FFE2975E050] ANOMALY: meaningless REX prefix used
+[0x7FFE29762900] ANOMALY: meaningless REX prefix used
+[0x7FFE2A709D00] ANOMALY: meaningless REX prefix used
+[0x7FFE2A70A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFE2C335240] ANOMALY: meaningless REX prefix used
+[0x7FFE2C3350A0] ANOMALY: meaningless REX prefix used
+[0x7FFE2C335060] ANOMALY: meaningless REX prefix used
+1558342952468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.0o8eZ0gTQShO"
+1558342953100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558342953100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558342953100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558342955307	Marionette	INFO	Listening on port 4143
+1558342955745	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7501: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7487: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/286.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/286.html, line 258: TypeError: document.getElementById(...) is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 14380, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 14380, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3068, C[Parent 14380, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1558344357632	Marionette	INFO	Stopped listening on port 4143
+[GPU 86
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+0
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFE2A61ECA0] ANOMALY: meaningless REX prefix used
+[0x7FFE2A61ED90] ANOMALY: meaningless REX prefix used
+[0x7FFE2978AF60] ANOMALY: meaningless REX prefix used
+[0x7FFE2979E030] ANOMALY: meaningless REX prefix used
+[0x7FFE2975E050] ANOMALY: meaningless REX prefix used
+[0x7FFE29762900] ANOMALY: meaningless REX prefix used
+[0x7FFE2A709D00] ANOMALY: meaningless REX prefix used
+[0x7FFE2A70A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFE2C335240] ANOMALY: meaningless REX prefix used
+[0x7FFE2C3350A0] ANOMALY: meaningless REX prefix used
+[0x7FFE2C335060] ANOMALY: meaningless REX prefix used
+1559119991101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.kLoz6vs1wAIH"
+1559119991593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559119991593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559119991593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559119993308	Marionette	INFO	Listening on port 14604
+1559119993351	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7529: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7515: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+1559120002485	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:508:17
+openPrompt@resource://gre/modules/Prompter.jsm:542:17
+confirm@resource://gre/modules/Prompter.jsm:647:14
+CheckForm@http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html:275:7
+onsubmit@http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html:1:8
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:202:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+[Parent 16952, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 16952, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/buil[dC/src/ipchild 15664,/ Chrocme_ChildThread] WAhRrNING: pipeo errorm:i u109: file zm:/task_1558035249/buil/src/chrome/common/ipc_channel_win.cc, line 341
+d/src/ipc/[cChhromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child[Parent 16952, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11559120056550	Marionette	INFO	Stopped listening on port 14604
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8224,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF970FDECA0] ANOMALY: meaningless REX prefix used
+[0x7FF970FDED90] ANOMALY: meaningless REX prefix used
+[0x7FF96DF7AF60] ANOMALY: meaningless REX prefix used
+[0x7FF96DF8E030] ANOMALY: meaningless REX prefix used
+[0x7FF96DF4E050] ANOMALY: meaningless REX prefix used
+[0x7FF96DF52900] ANOMALY: meaningless REX prefix used
+[0x7FF970569D00] ANOMALY: meaningless REX prefix used
+[0x7FF97056A8D0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5240] ANOMALY: meaningless REX prefix used
+[0x7FF9700F50A0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5060] ANOMALY: meaningless REX prefix used
+1559120062366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.iixJ7b38r6IN"
+1559120062864	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559120062865	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559120062865	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559120064615	Marionette	INFO	Listening on port 14692
+1559120064621	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7529: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7515: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559086190208%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7529: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7515: TypeError: document.getElementById(...) is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 8424, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4556, Chr[Parent 8424, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child1559175179480	Marionette	INFO	Stopped listening on port 14692
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF970FDECA0] ANOMALY: meaningless REX prefix used
+[0x7FF970FDED90] ANOMALY: meaningless REX prefix used
+[0x7FF96DF7AF60] ANOMALY: meaningless REX prefix used
+[0x7FF96DF8E030] ANOMALY: meaningless REX prefix used
+[0x7FF96DF4E050] ANOMALY: meaningless REX prefix used
+[0x7FF96DF52900] ANOMALY: meaningless REX prefix used
+[0x7FF970569D00] ANOMALY: meaningless REX prefix used
+[0x7FF97056A8D0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5240] ANOMALY: meaningless REX prefix used
+[0x7FF9700F50A0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5060] ANOMALY: meaningless REX prefix used
+58035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line[ C3h4i1l
+d 15752, Chrome_[CChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[[Parent 2504, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559175178636	Marionette	INFO	Stopped listening on port 14831
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF970FDECA0] ANOMALY: meaningless REX prefix used
+[0x7FF970FDED90] ANOMALY: meaningless REX prefix used
+[0x7FF96DF7AF60] ANOMALY: meaningless REX prefix used
+[0x7FF96DF8E030] ANOMALY: meaningless REX prefix used
+[0x7FF96DF4E050] ANOMALY: meaningless REX prefix used
+[0x7FF96DF52900] ANOMALY: meaningless REX prefix used
+[0x7FF970569D00] ANOMALY: meaningless REX prefix used
+[0x7FF97056A8D0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5240] ANOMALY: meaningless REX prefix used
+[0x7FF9700F50A0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5060] ANOMALY: meaningless REX prefix used
+vice: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559086190208%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 16896, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 16896, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Ch[Parent 16896, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559175178096	Marionette	INFO	Stopped listening on port 1040
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF970FDECA0] ANOMALY: meaningless REX prefix used
+[0x7FF970FDED90] ANOMALY: meaningless REX prefix used
+[0x7FF96DF7AF60] ANOMALY: meaningless REX prefix used
+[0x7FF96DF8E030] ANOMALY: meaningless REX prefix used
+[0x7FF96DF4E050] ANOMALY: meaningless REX prefix used
+[0x7FF96DF52900] ANOMALY: meaningless REX prefix used
+[0x7FF970569D00] ANOMALY: meaningless REX prefix used
+[0x7FF97056A8D0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5240] ANOMALY: meaningless REX prefix used
+[0x7FF9700F50A0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5060] ANOMALY: meaningless REX prefix used
+kForm@http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html:275:7
+onsubmit@http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html:1:8
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:202:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+[Parent 18540, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18540, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 941[6C,h iCld 15132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Ch[Parent 18540, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11559120843338	Marionette	INFO	Stopped listening on port 1179
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF970FDECA0] ANOMALY: meaningless REX prefix used
+[0x7FF970FDED90] ANOMALY: meaningless REX prefix used
+[0x7FF96DF7AF60] ANOMALY: meaningless REX prefix used
+[0x7FF96DF8E030] ANOMALY: meaningless REX prefix used
+[0x7FF96DF4E050] ANOMALY: meaningless REX prefix used
+[0x7FF96DF52900] ANOMALY: meaningless REX prefix used
+[0x7FF970569D00] ANOMALY: meaningless REX prefix used
+[0x7FF97056A8D0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5240] ANOMALY: meaningless REX prefix used
+[0x7FF9700F50A0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5060] ANOMALY: meaningless REX prefix used
+1559120893724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.U4aHK4wbOKSB"
+1559120894242	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559120894243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559120894243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559120896126	Marionette	INFO	Listening on port 1362
+1559120896473	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7529: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7515: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7551: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7573: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7595: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7581: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559086190208%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule/sort/SHIP_DATE.html, line 7595: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule/sort/SHIP_DATE.html, line 7581: TypeError: document.getElementById(...) is null
+[Parent 19692, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Chi[Parent 19692, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18[Parent 19692, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559175174356	Marionette	INFO	Stopped listening on port 1362
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF970FDECA0] ANOMALY: meaningless REX prefix used
+[0x7FF970FDED90] ANOMALY: meaningless REX prefix used
+[0x7FF96DF7AF60] ANOMALY: meaningless REX prefix used
+[0x7FF96DF8E030] ANOMALY: meaningless REX prefix used
+[0x7FF96DF4E050] ANOMALY: meaningless REX prefix used
+[0x7FF96DF52900] ANOMALY: meaningless REX prefix used
+[0x7FF970569D00] ANOMALY: meaningless REX prefix used
+[0x7FF97056A8D0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5240] ANOMALY: meaningless REX prefix used
+[0x7FF9700F50A0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5060] ANOMALY: meaningless REX prefix used
+schedule/sscId/309.html, line 258: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559086190208%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 19968, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 19968, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium[Child 17956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [Parent 19968, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 191559176115696	Marionette	INFO	Stopped listening on port 2255
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF970FDECA0] ANOMALY: meaningless REX prefix used
+[0x7FF970FDED90] ANOMALY: meaningless REX prefix used
+[0x7FF96DF7AF60] ANOMALY: meaningless REX prefix used
+[0x7FF96DF8E030] ANOMALY: meaningless REX prefix used
+[0x7FF96DF4E050] ANOMALY: meaningless REX prefix used
+[0x7FF96DF52900] ANOMALY: meaningless REX prefix used
+[0x7FF970569D00] ANOMALY: meaningless REX prefix used
+[0x7FF97056A8D0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5240] ANOMALY: meaningless REX prefix used
+[0x7FF9700F50A0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5060] ANOMALY: meaningless REX prefix used
+sage: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559086190208%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 20064, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 20064, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16768, Chrome_ChildThread] WARNIN[Child 17968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_[Child 21256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/ta1559176115648	Marionette	INFO	Stopped listening on port 2355
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 12
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF970FDECA0] ANOMALY: meaningless REX prefix used
+[0x7FF970FDED90] ANOMALY: meaningless REX prefix used
+[0x7FF96DF7AF60] ANOMALY: meaningless REX prefix used
+[0x7FF96DF8E030] ANOMALY: meaningless REX prefix used
+[0x7FF96DF4E050] ANOMALY: meaningless REX prefix used
+[0x7FF96DF52900] ANOMALY: meaningless REX prefix used
+[0x7FF970569D00] ANOMALY: meaningless REX prefix used
+[0x7FF97056A8D0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5240] ANOMALY: meaningless REX prefix used
+[0x7FF9700F50A0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5060] ANOMALY: meaningless REX prefix used
+vedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559086190208%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 21612, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Ch[iClhdi l2d1 518904,8 4, CChhrroommee__CChhiillddTThhrreeaadd]]  WWARNAIRNNGI:N Gp:i ppei pee error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19484, Chrome_ChildThread] WARNING: pipe error: 109: [Parent 21612, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559176115679	Marionette	INFO	Stopped listening on port 2512
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 1748,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF970FDECA0] ANOMALY: meaningless REX prefix used
+[0x7FF970FDED90] ANOMALY: meaningless REX prefix used
+[0x7FF96DF7AF60] ANOMALY: meaningless REX prefix used
+[0x7FF96DF8E030] ANOMALY: meaningless REX prefix used
+[0x7FF96DF4E050] ANOMALY: meaningless REX prefix used
+[0x7FF96DF52900] ANOMALY: meaningless REX prefix used
+[0x7FF970569D00] ANOMALY: meaningless REX prefix used
+[0x7FF97056A8D0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5240] ANOMALY: meaningless REX prefix used
+[0x7FF9700F50A0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5060] ANOMALY: meaningless REX prefix used
+.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 258: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559086190208%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 20276, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Ch[Parent 20276, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20452, Chrome_ChildThre1559176113097	Marionette	INFO	Stopped listening on port 2580
+[GPU 21
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+4
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF970FDECA0] ANOMALY: meaningless REX prefix used
+[0x7FF970FDED90] ANOMALY: meaningless REX prefix used
+[0x7FF96DF7AF60] ANOMALY: meaningless REX prefix used
+[0x7FF96DF8E030] ANOMALY: meaningless REX prefix used
+[0x7FF96DF4E050] ANOMALY: meaningless REX prefix used
+[0x7FF96DF52900] ANOMALY: meaningless REX prefix used
+[0x7FF970569D00] ANOMALY: meaningless REX prefix used
+[0x7FF97056A8D0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5240] ANOMALY: meaningless REX prefix used
+[0x7FF9700F50A0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5060] ANOMALY: meaningless REX prefix used
+ry/index.php/Index/edit_schedule/sscId/309.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 258: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559086190208%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Child 11968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11968, Chro[Child 22524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Chi[Parent 2728, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20331559176110258	Marionette	INFO	Stopped listening on port 2689
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF970FDECA0] ANOMALY: meaningless REX prefix used
+[0x7FF970FDED90] ANOMALY: meaningless REX prefix used
+[0x7FF96DF7AF60] ANOMALY: meaningless REX prefix used
+[0x7FF96DF8E030] ANOMALY: meaningless REX prefix used
+[0x7FF96DF4E050] ANOMALY: meaningless REX prefix used
+[0x7FF96DF52900] ANOMALY: meaningless REX prefix used
+[0x7FF970569D00] ANOMALY: meaningless REX prefix used
+[0x7FF97056A8D0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5240] ANOMALY: meaningless REX prefix used
+[0x7FF9700F50A0] ANOMALY: meaningless REX prefix used
+[0x7FF9700F5060] ANOMALY: meaningless REX prefix used
+1559181623614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.Ffu9rDnuRz7w"
+1559181624481	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559181624481	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559181624481	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559181626581	Marionette	INFO	Listening on port 8119
+1559181626869	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7595: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7581: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7595: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7581: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559174406944%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Child 12128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Chi[Parent 2332, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9888, [Parent 2332, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559182636087	Marionette	INFO	Stopped listening on port 8119
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8844,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFDB08AECA0] ANOMALY: meaningless REX prefix used
+[0x7FFDB08AED90] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7BAF60] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7CE030] ANOMALY: meaningless REX prefix used
+[0x7FFDAD78E050] ANOMALY: meaningless REX prefix used
+[0x7FFDAD792900] ANOMALY: meaningless REX prefix used
+[0x7FFDAE649D00] ANOMALY: meaningless REX prefix used
+[0x7FFDAE64A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995240] ANOMALY: meaningless REX prefix used
+[0x7FFDB09950A0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995060] ANOMALY: meaningless REX prefix used
+rver)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559174406944%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Child 8672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8[Parent 8584, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1[Parent 8584, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1541559182634716	Marionette	INFO	Stopped listening on port 8609
+[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFDB08AECA0] ANOMALY: meaningless REX prefix used
+[0x7FFDB08AED90] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7BAF60] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7CE030] ANOMALY: meaningless REX prefix used
+[0x7FFDAD78E050] ANOMALY: meaningless REX prefix used
+[0x7FFDAD792900] ANOMALY: meaningless REX prefix used
+[0x7FFDAE649D00] ANOMALY: meaningless REX prefix used
+[0x7FFDAE64A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995240] ANOMALY: meaningless REX prefix used
+[0x7FFDB09950A0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995060] ANOMALY: meaningless REX prefix used
+ildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9772, [Parent 4804, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [Parent 4804, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFDB08AECA0] ANOMALY: meaningless REX prefix used
+[0x7FFDB08AED90] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7BAF60] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7CE030] ANOMALY: meaningless REX prefix used
+[0x7FFDAD78E050] ANOMALY: meaningless REX prefix used
+[0x7FFDAD792900] ANOMALY: meaningless REX prefix used
+[0x7FFDAE649D00] ANOMALY: meaningless REX prefix used
+[0x7FFDAE64A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995240] ANOMALY: meaningless REX prefix used
+[0x7FFDB09950A0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995060] ANOMALY: meaningless REX prefix used
+1559182641422	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.zmaar7MZSWc0"
+1559182642069	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559182642070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559182642070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559182643917	Marionette	INFO	Listening on port 8762
+1559182644207	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7595: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7581: TypeError: document.getElementById(...) is null
+1559182650656	Marionette	INFO	Stopped listening on port 8762
+[Parent 15284, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [Child 10028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [Parent 15284, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFDB08AECA0] ANOMALY: meaningless REX prefix used
+[0x7FFDB08AED90] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7BAF60] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7CE030] ANOMALY: meaningless REX prefix used
+[0x7FFDAD78E050] ANOMALY: meaningless REX prefix used
+[0x7FFDAD792900] ANOMALY: meaningless REX prefix used
+[0x7FFDAE649D00] ANOMALY: meaningless REX prefix used
+[0x7FFDAE64A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995240] ANOMALY: meaningless REX prefix used
+[0x7FFDB09950A0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995060] ANOMALY: meaningless REX prefix used
+1559183667815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.yNqh12OZ0U3w"
+1559183668504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559183668504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559183668504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559183670617	Marionette	INFO	Listening on port 9342
+1559183671094	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7595: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7581: TypeError: document.getElementById(...) is null
+1559183677746	Marionette	INFO	Stopped listening on port 9342
+[Child 9052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9052, [Parent 16340, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 16340, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15420, Ch
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7780, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFDB08AECA0] ANOMALY: meaningless REX prefix used
+[0x7FFDB08AED90] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7BAF60] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7CE030] ANOMALY: meaningless REX prefix used
+[0x7FFDAD78E050] ANOMALY: meaningless REX prefix used
+[0x7FFDAD792900] ANOMALY: meaningless REX prefix used
+[0x7FFDAE649D00] ANOMALY: meaningless REX prefix used
+[0x7FFDAE64A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995240] ANOMALY: meaningless REX prefix used
+[0x7FFDB09950A0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995060] ANOMALY: meaningless REX prefix used
+1559200977937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.eSS2vJbKlRub"
+1559200978637	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559200978637	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559200978638	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559200980646	Marionette	INFO	Listening on port 6000
+1559200980709	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7595: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7581: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/232.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/232.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7595: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/257.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/257.html, line 258: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559174406944%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7595: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7617: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/260.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/260.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7617: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/233.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/233.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7617: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/246.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/246.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7617: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/259.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/259.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7617: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/253.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/253.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: chrome://marionette/content/proxy.js, line 275: N[PSa_rEeRnRtO R_I1L5684L,E GGAeLc_kVoA_LIUOET
+hread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 15684, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1[Parent 15684, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16864, Chro1559201037035	Marionette	INFO	Stopped listening on port 6000
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFDB08AECA0] ANOMALY: meaningless REX prefix used
+[0x7FFDB08AED90] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7BAF60] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7CE030] ANOMALY: meaningless REX prefix used
+[0x7FFDAD78E050] ANOMALY: meaningless REX prefix used
+[0x7FFDAD792900] ANOMALY: meaningless REX prefix used
+[0x7FFDAE649D00] ANOMALY: meaningless REX prefix used
+[0x7FFDAE64A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995240] ANOMALY: meaningless REX prefix used
+[0x7FFDB09950A0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995060] ANOMALY: meaningless REX prefix used
+1559292016947	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.42qpzHDJ8sQJ"
+1559292017898	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559292017899	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559292017899	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559292020358	Marionette	INFO	Listening on port 9069
+1559292020851	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7841: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7827: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7863: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/284.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/284.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/231.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/231.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/307.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/307.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/279.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/279.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7871: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7907: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/289.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/289.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7907: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7929: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/286.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/286.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7929: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7951: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7973: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: chrome://marionette/content/proxy.js, line 275: NS_ERROR_ILLEGAL_VALUE
+[Parent 2336, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 2336, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child[Parent 2336, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17301559292111577	Marionette	INFO	Stopped listening on port 9069
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFDB08AECA0] ANOMALY: meaningless REX prefix used
+[0x7FFDB08AED90] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7BAF60] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7CE030] ANOMALY: meaningless REX prefix used
+[0x7FFDAD78E050] ANOMALY: meaningless REX prefix used
+[0x7FFDAD792900] ANOMALY: meaningless REX prefix used
+[0x7FFDAE649D00] ANOMALY: meaningless REX prefix used
+[0x7FFDAE64A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995240] ANOMALY: meaningless REX prefix used
+[0x7FFDB09950A0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995060] ANOMALY: meaningless REX prefix used
+1559609830325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.z0MnXVSZskkD"
+1559609831121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559609831122	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559609831122	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559609833047	Marionette	INFO	Listening on port 11372
+1559609833144	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7871: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/284.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/284.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7871: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/231.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/231.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/307.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/307.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/279.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/279.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/335.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/335.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/289.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/289.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7871: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/336.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/336.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/286.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/286.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7885: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7907: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7929: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7951: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/275.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/275.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7951: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7973: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7959: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/308.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/308.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7973: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/305.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/305.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7973: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7995: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/290.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/290.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7995: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8017: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8039: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8039: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8025: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/256.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/256.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8039: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/313.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/313.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8039: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/311.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/311.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8039: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/312.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/312.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8039: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/323.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/323.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8039: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8061: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/210.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/210.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8061: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/281.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/281.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8061: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/251.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/251.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8061: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/324.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/324.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/325.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/325.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/326.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/326.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8061: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/287.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/287.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/228.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/228.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/293.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/293.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/306.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/306.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/291.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/291.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/292.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/292.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/310.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/310.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/328.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/328.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/327.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/327.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8061: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/329.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/329.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/315.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/315.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/240.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/240.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/297.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/297.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/298.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/298.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/294.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/294.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/295.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/295.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/316.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/316.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/254.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/254.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/255.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/255.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/238.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/238.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/321.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/321.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/320.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/320.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/330.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/330.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/319.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/319.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/331.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/331.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/332.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/332.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+1559610238516	Marionette	INFO	Stopped listening on port 11372
+[Parent 8684, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child[Parent 8684, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12792, 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 12528, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFDB08AECA0] ANOMALY: meaningless REX prefix used
+[0x7FFDB08AED90] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7BAF60] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7CE030] ANOMALY: meaningless REX prefix used
+[0x7FFDAD78E050] ANOMALY: meaningless REX prefix used
+[0x7FFDAD792900] ANOMALY: meaningless REX prefix used
+[0x7FFDAE649D00] ANOMALY: meaningless REX prefix used
+[0x7FFDAE64A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995240] ANOMALY: meaningless REX prefix used
+[0x7FFDB09950A0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995060] ANOMALY: meaningless REX prefix used
+1559616928391	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\danielyuan\\AppData\\Local\\Temp\\rust_mozprofile.gTd77ltbxDD4"
+1559616929001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559616929001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559616929001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559616931005	Marionette	INFO	Listening on port 1636
+1559616931128	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+[Parent 14560, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/bu[Child 21360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 211559616946440	Marionette	INFO	Stopped listening on port 1636
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FFDB08AECA0] ANOMALY: meaningless REX prefix used
+[0x7FFDB08AED90] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7BAF60] ANOMALY: meaningless REX prefix used
+[0x7FFDAD7CE030] ANOMALY: meaningless REX prefix used
+[0x7FFDAD78E050] ANOMALY: meaningless REX prefix used
+[0x7FFDAD792900] ANOMALY: meaningless REX prefix used
+[0x7FFDAE649D00] ANOMALY: meaningless REX prefix used
+[0x7FFDAE64A8D0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995240] ANOMALY: meaningless REX prefix used
+[0x7FFDB09950A0] ANOMALY: meaningless REX prefix used
+[0x7FFDB0995060] ANOMALY: meaningless REX prefix used
+1561360163464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DANIEL~1\\AppData\\Local\\Temp\\rust_mozprofile.pXk94lKWdhL0"
+1561360164478	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561360164478	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561360164478	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561360168270	Marionette	INFO	Listening on port 5620
+1561360168317	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7879: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/337.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/337.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/338.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/338.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561148779474%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/339.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/339.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/340.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/340.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/275.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/275.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/305.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/305.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/341.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/341.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/307.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/307.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/290.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/290.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/342.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/342.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/308.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/308.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/343.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/343.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/311.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/311.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/256.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/256.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/313.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/313.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7879: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/312.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/312.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/344.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/344.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/281.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/281.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7893: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/323.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/323.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/210.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/210.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/326.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/326.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/325.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/325.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/324.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/324.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/287.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/287.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/327.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/327.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/293.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/293.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/228.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/228.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/306.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/306.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/291.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/291.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/328.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/328.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/292.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/292.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7901: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/251.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/251.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/310.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/310.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/240.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/240.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/315.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/315.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/297.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/297.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/298.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/298.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/345.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/345.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/294.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/294.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/316.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/316.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7901: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/254.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/254.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/255.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/255.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/238.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/238.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/127.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/127.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/346.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/346.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/156.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/156.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/329.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/329.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/330.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/330.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/331.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/331.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7901: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/332.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/332.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/319.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/319.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7915: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/137.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/137.html, line 258: TypeError: document.getElementById(...) is null
+1561360528261	Marionette	INFO	Stopped listening on port 5620
+[Parent 7240, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7240, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7212, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562228768367	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DANIEL~1\\AppData\\Local\\Temp\\rust_mozprofile.A1E1w9jVrN6r"
+1562228769343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562228769343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562228769343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562228771913	Marionette	INFO	Listening on port 1883
+1562228772017	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7903: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/275.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/275.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/337.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/337.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/338.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/338.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/305.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/305.html, line 258: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562202850012%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/339.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/339.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/340.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/340.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/290.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/290.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7903: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/307.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/307.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/308.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/308.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7903: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/311.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/311.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/256.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/256.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/341.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/341.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/342.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/342.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/348.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/348.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/343.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/343.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/312.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/312.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/281.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/281.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/323.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/323.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/344.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/344.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/313.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/313.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/326.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/326.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/210.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/210.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/325.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/325.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/324.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/324.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/287.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/287.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/327.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/327.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/228.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/228.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/293.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/293.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/306.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/306.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/328.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/328.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7903: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/291.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/291.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7903: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/292.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/292.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/251.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/251.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/310.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/310.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/314.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/314.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/258.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/258.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7917: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/240.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/240.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/317.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/317.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/315.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/315.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/297.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/297.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/298.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/298.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/345.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/345.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/316.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/316.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/254.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/254.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/255.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/255.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/238.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/238.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/127.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/127.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/346.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/346.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/156.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/156.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/329.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/329.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/330.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/330.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/331.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/331.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/332.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/332.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/319.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/319.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7939: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/137.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/137.html, line 258: TypeError: document.getElementById(...) is null
+1562229149956	Marionette	INFO	Stopped listening on port 1883
+[Parent 10024, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Chi[Parent 10024, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 20192,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1563181630750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DANIEL~1\\AppData\\Local\\Temp\\rust_mozprofile.wWZrtH5LHVBJ"
+1563181631340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563181631340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563181631341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563181631341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563181633520	Marionette	INFO	Listening on port 8742
+1563181633885	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 157: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/index.html, line 143: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/production_schedule.html, line 7911: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/307.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/307.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7911: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/309.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563062407121%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/308.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/308.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/337.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/337.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/338.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/338.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/339.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/339.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/340.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/340.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/281.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/281.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/256.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/256.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/311.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/311.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/341.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/341.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/342.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/342.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/343.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/343.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/312.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/312.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7911: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/323.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/323.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/344.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/344.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/313.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/313.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/348.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/348.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7911: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/349.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/349.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7911: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/326.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/326.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7911: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/210.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/210.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/325.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/325.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/324.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/324.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/287.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/287.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/327.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/327.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/293.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/293.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/328.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/328.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/291.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/291.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/292.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/292.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/251.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/251.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7925: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7911: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7947: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/314.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/314.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7947: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/258.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/258.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7947: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/306.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/306.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7947: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7933: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7969: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/240.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/240.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7969: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7955: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/317.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/317.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7969: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/297.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/297.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7969: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7955: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7991: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7977: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/315.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/315.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7991: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7977: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/298.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/298.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7991: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/310.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/310.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7991: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 253: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/new_schedule.html, line 239: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/228.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/228.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/345.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/345.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7999: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/316.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/316.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7999: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/254.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/254.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/255.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/255.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/238.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/238.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/127.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/127.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/346.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/346.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/156.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/156.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/330.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/330.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/331.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/331.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/332.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/332.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 7999: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/319.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/319.html, line 258: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/index/production_schedule.html, line 8013: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/137.html, line 272: TypeError: document.getElementById(...) is null
+JavaScript error: http://192.168.0.104/ssc_query/index.php/Index/edit_schedule/sscId/137.html, line 258: TypeError: document.getElementById(...) is null
+1563182009201	Marionette	INFO	Stopped listening on port 8742
+[Parent 6508, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [[Parent 6508, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
