@@ -1,130 +1,181 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 19 13:29:58 2019
+Updated on June 6, 2019
+
+What's new:
+1. Add autofilling SSC Online Management
+2. Import ssc_auto_fill_2.py
+
 
 @author: DanielYuan
 """
 
-#!ProductPlanSheet.py
+#!shipment_schedule5.py
 """Extract the data from Product Plan and write them to a new spreadsheet"""
 
-from openpyxl import Workbook
+
 from openpyxl import load_workbook
-import datetime
 from openpyxl.styles import Font
-from openpyxl.utils import get_column_letter
 from openpyxl.styles.colors import RED, BLUE
-import time
-from numba import autojit
+from openpyxl.comments import Comment
+import datetime
+import json, re, os
+import pandas as pd
+import ssc_auto_fill
+
 
 
 # Open the source file to read data from
-def open_src_file(src_file, *sheets):
-    wb = load_workbook(src_file, read_only=True, data_only=True)
+def extract_data(src_file, sheets):
+    print('\nStart extracting data from the source file...')
+    pattern1 = re.compile(r'NSO|Reol|Upgr|Relo|Refurb')
+    pattern2 = re.compile(r'R&D|Risk')
+    frames = []
     for sheet in sheets:
-        ws = wb[sheet]
+        frame = pd.read_excel(src_file, sheet)
         if sheet == 'M-Plan':
-            mo_list = extract_data(ws,rx=3,ry=8)
+            frame = frame[['Month','Customer','Product Info','Project ID', 'Ship Date']]
+        else: 
+            frame = frame[['Month','Customer','Product Info','Project ID', 'Crated Date']]
+            frame.rename(columns={'Crated Date': 'Ship Date'}, inplace=True)
+        frame = frame.dropna(axis=0, how='any')
+        frame = frame[-frame['Product Info'].str.contains(pattern1)]
+        frame = frame[-frame['Customer'].str.contains(pattern2)]        
+        frames.append(frame)
+    df = pd.concat(frames,ignore_index=True)
+    df['Ship Date'] = df['Ship Date'].astype('str').str.strip('00:00:00')
+    df['Project ID'] = df['Project ID'].astype('int').astype('str') # convert to integer
+    # strip '00:00:00' suffixed to the crate date
+   # df['Crated Date'] = df['Crated Date'].astype('str').str.strip('00:00:00')
+    df.sort_values(by='Ship Date', ascending=True, inplace=True)
+    return df        
+
+
+
+def reshape_cmp_data(jsonfile):
+    try:
+        with open(jsonfile) as f_obj:
+            compare_file = json.load(f_obj)
+    except FileNotFoundError:
+        return {}
+    else:
+        cmp_dict = {}
+        for i in compare_file.values():
+            cmp_dict[i['Project ID']] = [i['Product Info'], i['Ship Date']]
+        #print('A compare data file has been created!')
+        return cmp_dict
+    
+
+# Compare new ship data with existing ship data
+def compare_data(df, cmp_dict):
+    for i, k in enumerate(df['Project ID']):
+        if k in cmp_dict.keys():            
+            if df['Ship Date'][i] != cmp_dict[k][1]:
+                df = df.replace(k, k+'!')
         else:
-            etch_list = extract_data(ws,rx=5,ry=10)    
-    sheets_value = mo_list + etch_list
-    return sheets_value
+            df = df.replace(k, k+'*')
+    return df
 
 
-@autojit
-# Extract data from the MFG product plan
-def extract_data(ws,rx,ry):
-    total_cell_values=[]
-    now = datetime.datetime.now()
-    future= now +datetime.timedelta(days=260)
-    for i in range(2,290):
-        cell_values=[]
-        for j in range(rx, ry):
-            cell_value = ws.cell(row=i, column=j).value
-            cell_values.append(cell_value)
-        if cell_values[1] != None and 'NSO' not in cell_values[1] and 'Upgr' not in cell_values[1] and now<cell_values[4]<future and 'R&D' not in cell_values[0]:
-            cell_values = format_date(cell_values) # call format_date()
-            total_cell_values.append(cell_values)
-    return total_cell_values
+def get_col_widths(df):
+    #idx_max = max([len(str(s)) for s in df.index.values] + [len(str(df.index.name))])
+    #return [idx_max] + [max([len(str(s)) for s in df[col]] + [len(col)]) for col in df.columns]
+    return [max([len(str(s)) for s in df[col].values] + [len(col)]) for col in df.columns]
 
-
-@autojit
-# Format the date
-def format_date(cell_values):
-    cell_values[3] = datetime.datetime.strftime(cell_values[3],'%Y-%m-%d')
-    cell_values[4] = datetime.datetime.strftime(cell_values[4],'%Y-%m-%d')
-    return cell_values
-
-
-@autojit
 # Write data in the target file
-def write_data(sheets_value, tar_file):
-    wb = Workbook()
-    ws = wb.active
-    row_title_style(wb,ws)  # Call row_title_style() to generate title
-    ship_dict = get_cur_ship_data(tar_file)  # Call get_cur_ship_data()
-    for row_value in sheets_value:
-        row_value = compare_data(row_value, ship_dict) #Call compare_data
-        ws.append(row_value)
-        color_font(ws)  # Call color_font()
-    wb.save(tar_file)
+def write_data(df, new_tar_file):
+    print('\nSaving data to the excel file...')
+    writer = pd.ExcelWriter(new_tar_file, engine='xlsxwriter')
+    df.to_excel(writer, index=False)  # Save file to excel
+    worksheet = writer.sheets['Sheet1']
+    
+    for i, width in enumerate(get_col_widths(df)):
+        worksheet.set_column(i, i, width)
+    writer.save()
+    
 
-@autojit
-def color_font(ws):
-    for cell in list(ws.columns)[2]:
+# Color the specified fonts and add comments to changed schedules
+def add_color_comment(new_tar_file, cmp_dict, msg):
+    wb = load_workbook(new_tar_file)
+    ws = wb.active
+    for cell in list(ws.columns)[3]:
         if '*' in cell.value:
             cell.font = Font(color=BLUE)
         elif '!' in cell.value:
             cell.font = Font(color=RED)
+            cmt_value = cmp_dict[cell.value.strip('!')][1]
+            cell.comment = Comment(f'Last ship date:\n{cmt_value}', 'Author')
+            #cmt_value2 = cmp_dict[cell.value.strip('!')][2]
+            #cell.comment = Comment('Last crate date:\n %s\nLast ship date:\n%s' % (cmt_value1, cmt_value2), 'Author')
 
-@autojit
-# Compare new ship data with existing ship data
-def compare_data(row_value, ship_dict):
-    row_value[2] = str(row_value[2])
-    if row_value[2] in ship_dict.keys():
-        if row_value[3] != ship_dict[row_value[2]][0] or row_value[4] != ship_dict[row_value[2]][1]:
-            row_value[2] = row_value[2] + '!'
-    elif row_value[2] not in ship_dict.keys():
-        row_value[2] = row_value[2] + '*'
-    return row_value 
+    ws.append([])
+    ws.append(msg)
+    list(ws.rows)[-1][0].font = Font(color=BLUE, size=12, bold=True)
+    wb.save(new_tar_file)
 
-@autojit
-# Get the current shipment schedule
-def get_cur_ship_data(tar_file):
-    wb = load_workbook(tar_file)
-    ws = wb.active
-    ship_dict = {}
-    for x in range(2, ws.max_row+1):
-        cell_value_3 =str(ws.cell(row=x, column=3).value).strip('*').strip('!')
-        cell_value_4 = ws.cell(row=x, column=4).value
-        cell_value_5 = ws.cell(row=x, column=5).value
-        ship_dict[cell_value_3] = [cell_value_4, cell_value_5]
-    return ship_dict
+
+def cancelled_items(df1, cmp_dict, today):
+    cancel_item = []
+    for j, h in cmp_dict.items():
+        if j not in df1['Project ID'].values and h[1] > today:  # check if a value exists
+            print('%s was cancelled...' %j)
+            cancel_item.append(j)
+    return cancel_item
 
 
 
-@autojit
-# Style the first-row title
-def row_title_style(wb, ws):
-    title = ['Customer', 'Product Info', 'Project ID', 'Crate Date', 'Ship Date']
-    ws.append(title)
-    for col in range(1,6):
-        ws.column_dimensions[get_column_letter(col)].width = 20
-        ws.cell(row =1, column = col).font = Font(bold=True, size=14)
+def file_names():
+    '''Get the MFG Product Plan source file and 
+    the existing Shipment Schedule file for comparison'''
+    while True:
+        prompt = ('Please enter the MFG Product Plan source file:\n')
+        filename= input(prompt + '>>> ')
+        src_file = 'c:\\users\\danielyuan\\desktop\\ProductPlanProject\\%s.xlsx' %filename
+        if os.path.exists(src_file):
+            break
+    now_str = format_time('%m%d%Y')
+    new_tar_file = 'c:\\users\\danielyuan\\desktop\\ProductPlanProject\\ShipmentSchedule_%s.xlsx' % now_str
+    return src_file, new_tar_file
 
-@autojit
+
+def format_time(fmt):
+    now = datetime.datetime.now()
+    return datetime.datetime.strftime(now, fmt)
+    
+
 def main():
-    #filename= input('Please enter the source file: ')
-    src_file = r'c:\users\danielyuan\desktop\ProductPlanProject\Prod Plan 2019-W15 041219.xlsx'
-    tar_file = r'c:\users\danielyuan\desktop\ProductPlanProject\Shipment Schedule.xlsx'
-    sheets_value = open_src_file(src_file, 'M-Plan', 'E-Plan')
-    write_data(sheets_value, tar_file)
+    src_file, new_tar_file = file_names()
+    sheets = ['M-Plan', 'E-Plan']
+    df = extract_data(src_file, sheets)    
+    df1 = df.copy()
+    today = format_time('%Y-%m-%d')
+    df = df[df['Ship Date'] > today] # Display the shipments after today
+    df = df.reset_index(drop=True)
+    df.to_json('ssc_cmp_data.json', orient='index')    
+    # convert dataframe to a compare dictionary
+    cmp_dict = reshape_cmp_data('cmp_data.json')  
+    # if cmp_dict has data, do data comparison 
+    # or save to excel directly
+    if cmp_dict:
+        df = compare_data(df,cmp_dict)
+        write_data(df, new_tar_file)
+        cancel_item = cancelled_items(df1, cmp_dict, today)
+        if cancel_item:
+            if len(cancel_item) == 1:
+                msg = [f'Note: The following item was cancelled: {cancel_item}']
+            else:
+                msg = ['Note: The following items were cancelled: %s' % cancel_item]
+        else:
+            msg = ['Note: No shipments were cancelled!']
+        add_color_comment(new_tar_file, cmp_dict, msg)                     
+    else:
+        write_data(df, new_tar_file)
 
-
-
+    print('\nDone!')
+    print(f'\nYou have successfully collected {len(df)} shipments in the excel file!')
+    # Save compare_data into cmp_data.json(compare_file)
+    df1.to_json('cmp_data.json', orient='index')
+    ssc_auto_fill.ssc_fill(reshape_cmp_data('ssc_cmp_data.json'))
 
 if __name__ == '__main__':
-    start = time.time()   # Start time
     main()
-    end = time.time()   # End time
-    print('Used time:', end-start)
