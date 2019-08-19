@@ -2,6 +2,10 @@
 """
 Created on Wed May 29 16:44:02 2019
 
+What's new:
+    1. Change the keys the ssc_dict by removing splitting the key strings and 
+    get the first element (row 49)
+    
 @author: DanielYuan
 """
 
@@ -43,7 +47,7 @@ def getSSC_dict(browser):
     for tr in trs:
         tds = tr.findAll('td')       
         try:
-            ssc_dict[tds[0].text] = [tr['id'], tds[3].text]  # Get each tr's id        
+            ssc_dict[tds[0].text.split('/')[0]] = [tr['id'], tds[3].text]  # Get each tr's id        
         except KeyError:
             pass         
     return ssc_dict
@@ -52,10 +56,10 @@ def getSSC_dict(browser):
 def fill_data(browser, cmp_data, ssc_dict):
     '''Compare data and fill the SSC'''    
     for j, k in cmp_data.items():
-        if j in ssc_dict.keys():
-            if k[1] != ssc_dict[j][1]:
+        if j in ssc_dict.keys(): 
+            if k[1] != ssc_dict[j][1]:  
                 update_SSC(browser, j, k[1], ssc_dict[j][0])  # Do SSC update        
-                print(f'\n{j} ship date was updated to {k[1]} in SSC Online Management System')
+                print(f'\n{j} ship date was updated to {k[1]} in SSC Online Management System!')
         else:
             create_SSC(browser, j, k[0], k[1])   # Do SSC create
             print(f'\n{j} was created in SSC Online Management System!')
@@ -78,6 +82,7 @@ def create_SSC(browser, project_id, projInfo, ship_date):
     WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.ssc_schedule > span:nth-child(2) > input:nth-child(1)'))).click()
     WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.NAME, 'SHIPMENT_NO'))).send_keys(project_id)
     browser.find_element_by_class_name('laydate-icon').send_keys(ship_date)
+    WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.NAME, 'REMARK'))).send_keys(projInfo)
     
     ownerOption = browser.find_element_by_name('owner')
     if project_id[-1] in ['3', '5', '6', '8']:
@@ -134,5 +139,3 @@ def create_SSC(browser, project_id, projInfo, ship_date):
     browser.implicitly_wait(10)
     
     
-#if __name__ == '__main__':
-#    main()
