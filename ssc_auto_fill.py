@@ -5,6 +5,8 @@ Created on Wed May 29 16:44:02 2019
 What's new:
     1. Change the keys the ssc_dict by removing splitting the key strings and 
     get the first element (row 49)
+    2. added try...except syntax from line 71 to 76 (Dated:09162019)
+    3. changed code in line 76 to line 75 to fix the unfound ship id issue
     
 @author: DanielYuan
 """
@@ -28,20 +30,23 @@ def ssc_fill(cmp_data):
         
 
 def getUrl(url, username, password):
-    '''Open the SSC page and navigate to the Production Schedule page'''    
-    browser = webdriver.Firefox()
+    '''Open the SSC page and navigate to the Production Schedule page'''  
+    options = webdriver.FirefoxOptions()
+    options.add_argument('-headless') 
+    options.add_argument('--disable-gpu')
+    browser = webdriver.Firefox(options=options)
     browser.get(url)
     browser.find_element_by_name('username').send_keys(username)
     browser.find_element_by_name('password').send_keys(password)
     browser.find_element_by_class_name('but_ie').click()
-    WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'input'))).click()
+    WebDriverWait(browser, 20).until(EC.presence_of_element_located((By.TAG_NAME, 'input'))).click()
     return browser
 
 
 def getSSC_dict(browser):
     '''Get the Project IDs, ship ids and Ship Dates from the SSC and store them in a dictionary'''
     page = browser.page_source
-    bs= BeautifulSoup(page,'lxml')
+    bs= BeautifulSoup(page,'html.parser')
     trs = bs.find('tbody').findAll('tr')    
     ssc_dict = {}
     for tr in trs:
@@ -58,7 +63,7 @@ def fill_data(browser, cmp_data, ssc_dict):
     for j, k in cmp_data.items():
         if j in ssc_dict.keys(): 
             if k[1] != ssc_dict[j][1]:  
-                update_SSC(browser, j, k[1], ssc_dict[j][0])  # Do SSC update        
+                update_SSC(browser, k[1], ssc_dict[j][0])  # Do SSC update        
                 print(f'\n{j} ship date was updated to {k[1]} in SSC Online Management System!')
         else:
             create_SSC(browser, j, k[0], k[1])   # Do SSC create
@@ -67,22 +72,36 @@ def fill_data(browser, cmp_data, ssc_dict):
     print('\n\nDone with the SSC data auto-filling!')
 
     
-def update_SSC(browser, project_id, ship_date, ship_id):
+def update_SSC(browser, ship_date, ship_id):
     '''Update the SSC Online Management System if the ship date changes'''
-    browser.find_element_by_css_selector(f'#{ship_id} > td:nth-child(11) > span:nth-child(1) > img:nth-child(1)').click()
-    browser.find_element_by_class_name('laydate-icon').clear()
-    browser.find_element_by_class_name('laydate-icon').send_keys(ship_date)
+    try:
+        WebDriverWait(browser, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, f'#{ship_id} > td:nth-child(11) > span:nth-child(1) > img:nth-child(1)'))).click()
+    	#browser.find_element_by_css_selector(f'#{ship_id} > td:nth-child(11) > span:nth-child(1) > img:nth-child(1)').click()
+    except:
+    	print(f'{ship_id} failed to be found!')
+    	pass
+    try:
+        browser.find_element_by_class_name('laydate-icon').clear()
+    except:
+        print(f'{ship_id} field failed to clear!')
+        pass
+    try:
+        browser.find_element_by_class_name('laydate-icon').send_keys(ship_date)
+    except:
+        print(f'{ship_id} field failed to enter!')
+        pass
+
     browser.find_element_by_css_selector('#wrap > form:nth-child(1) > input:nth-child(6)').click()
     browser.switch_to.alert.accept()
-    browser.implicitly_wait(10)
+    browser.implicitly_wait(20)
     
     
 def create_SSC(browser, project_id, projInfo, ship_date):
     '''Create a new shipment on the SSC Online Management System'''
-    WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.ssc_schedule > span:nth-child(2) > input:nth-child(1)'))).click()
-    WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.NAME, 'SHIPMENT_NO'))).send_keys(project_id)
+    WebDriverWait(browser, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.ssc_schedule > span:nth-child(2) > input:nth-child(1)'))).click()
+    WebDriverWait(browser, 20).until(EC.presence_of_element_located((By.NAME, 'SHIPMENT_NO'))).send_keys(project_id)
     browser.find_element_by_class_name('laydate-icon').send_keys(ship_date)
-    WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.NAME, 'REMARK'))).send_keys(projInfo)
+    # WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.NAME, 'REMARK'))).send_keys(projInfo)
     
     ownerOption = browser.find_element_by_name('owner')
     if project_id[-1] in ['3', '5', '6', '8']:
@@ -136,6 +155,6 @@ def create_SSC(browser, project_id, projInfo, ship_date):
         '#wrap > form:nth-child(1) > input:nth-child(6)'
     ).click()
     browser.switch_to.alert.accept() # get dialog box
-    browser.implicitly_wait(10)
+    browser.implicitly_wait(20)
     
     

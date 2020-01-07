@@ -33,11 +33,13 @@ def extract_data(src_file, sheets):
     frames = []
     for sheet in sheets:
         frame = pd.read_excel(src_file, sheet)
-        if sheet == 'M-Plan':
-            frame = frame[['Month','Customer','Product Info','Project ID', 'Ship Date']]
-        else: 
-            frame = frame[['Month','Customer','Product Info','Project ID', 'Crated Date']]
-            frame.rename(columns={'Crated Date': 'Ship Date'}, inplace=True)
+        #if sheet == 'M-Plan':
+            #frame = frame[['Month','Customer','Product Info','Project ID', 'Ship Date']]
+        # else: 
+        #     frame = frame[['Month','Customer','Product Info','Project ID', 'Crated Date']]
+            #frame.rename(columns={'Crated Date': 'Ship Date'}, inplace=True)
+        frame = frame[['Month','Customer','Product Info','Project ID', 'Crated Date']]
+        frame.rename(columns={'Crated Date': 'Ship Date'}, inplace=True)
         frame = frame.dropna(axis=0, how='any')
         frame = frame[-frame['Product Info'].str.contains(pattern1)]
         frame = frame[-frame['Customer'].str.contains(pattern2)]        
