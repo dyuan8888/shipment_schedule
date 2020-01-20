@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed May 29 16:44:02 2019
+Updated on Monday Jan 20 12:40 2020
 
 What's new:
-    1. Change the keys the ssc_dict by removing splitting the key strings and 
-    get the first element (row 49)
-    2. added try...except syntax from line 71 to 76 (Dated:09162019)
-    3. changed code in line 76 to line 75 to fix the unfound ship id issue
+    1. Modified TSV200E CSS selector
+    2. Updated line 127 by adding " 'HD' not in projinfo"
+    3. Added MOCVD remark to show MOCVD type
+    
     
 @author: DanielYuan
 """
@@ -114,19 +114,20 @@ def create_SSC(browser, project_id, projInfo, ship_date):
         prodType.find_element_by_css_selector(
             '#wrap > form:nth-child(1) > ul:nth-child(1) > ol:nth-child(4) > li:nth-child(2) > select:nth-child(1) > option:nth-child(9)'
         ).click()
+        WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.NAME, 'REMARK'))).send_keys(projInfo)
     elif 'TSV200' in projInfo:
         prodType.find_element_by_css_selector(
-            '#wrap > form:nth-child(1) > ul:nth-child(1) > ol:nth-child(4) > li:nth-child(2) > select:nth-child(1) > option:nth-child(6)'
+            '#wrap > form:nth-child(1) > ul:nth-child(1) > ol:nth-child(4) > li:nth-child(2) > select:nth-child(1) > option:nth-child(7)'
         ).click()
     elif 'TSV300' in projInfo:
         prodType.find_element_by_css_selector(
-            '#wrap > form:nth-child(1) > ul:nth-child(1) > ol:nth-child(4) > li:nth-child(2) > select:nth-child(1) > option:nth-child(7)'
+            '#wrap > form:nth-child(1) > ul:nth-child(1) > ol:nth-child(4) > li:nth-child(2) > select:nth-child(1) > option:nth-child(8)'
         ).click()
     elif 'AD-RIE' in projInfo:
         prodType.find_element_by_css_selector(
             '#wrap > form:nth-child(1) > ul:nth-child(1) > ol:nth-child(4) > li:nth-child(2) > select:nth-child(1) > option:nth-child(2)'
         ).click()
-    elif 'D-RIE' in projInfo:
+    elif 'D-RIE' in projInfo and 'HD' not in projInfo:
         prodType.find_element_by_css_selector(
             '#wrap > form:nth-child(1) > ul:nth-child(1) > ol:nth-child(4) > li:nth-child(2) > select:nth-child(1) > option:nth-child(3)'
         ).click()
@@ -144,12 +145,16 @@ def create_SSC(browser, project_id, projInfo, ship_date):
         ) .click()
     elif 'SSC ICP' in projInfo:
         prodType.find_element_by_css_selector(
-            '#wrap > form:nth-child(1) > ul:nth-child(1) > ol:nth-child(4) > li:nth-child(2) > select:nth-child(1) > option:nth-child(5)'
+            '#wrap > form:nth-child(1) > ul:nth-child(1) > ol:nth-child(4) > li:nth-child(2) > select:nth-child(1) > option:nth-child(6)'
         ).click()   
     elif 'SSC AD-RIE' in projInfo:
         prodType.find_element_by_css_selector(
             '#wrap > form:nth-child(1) > ul:nth-child(1) > ol:nth-child(4) > li:nth-child(2) > select:nth-child(1) > option:nth-child(4)'
-        ).click()             
+        ).click()  
+    elif 'iDEA' in projInfo:
+        prodType.find_element_by_css_selector(
+            '#wrap > form:nth-child(1) > ul:nth-child(1) > ol:nth-child(4) > li:nth-child(2) > select:nth-child(1) > option:nth-child(5)'
+        ).click()           
     
     browser.find_element_by_css_selector(
         '#wrap > form:nth-child(1) > input:nth-child(6)'
