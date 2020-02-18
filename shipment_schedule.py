@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Updated on June 6, 2019
+Updated on Feb 18, 2020
 
 What's new:
-1. Add autofilling SSC Online Management
-2. Import ssc_auto_fill_2.py
+1. Fixed the bug by changing the strip method to slice in line 50: dates of 10,20,30 do not show the last digit 0
+    eg. 2020-04-1 --> 2020-04-10
 
 
 @author: DanielYuan
 """
 
-#!shipment_schedule5.py
+#!shipment_schedule.py
 """Extract the data from Product Plan and write them to a new spreadsheet"""
 
 
@@ -45,7 +45,8 @@ def extract_data(src_file, sheets):
         frame = frame[-frame['Customer'].str.contains(pattern2)]        
         frames.append(frame)
     df = pd.concat(frames,ignore_index=True)
-    df['Ship Date'] = df['Ship Date'].astype('str').str.strip('00:00:00')
+    
+    df['Ship Date'] = df['Ship Date'].astype('str').str[0:10]
     df['Project ID'] = df['Project ID'].astype('int').astype('str') # convert to integer
     # strip '00:00:00' suffixed to the crate date
    # df['Crated Date'] = df['Crated Date'].astype('str').str.strip('00:00:00')
@@ -148,11 +149,13 @@ def format_time(fmt):
 def main():
     src_file, new_tar_file = file_names()
     sheets = ['M-Plan', 'E-Plan']
-    df = extract_data(src_file, sheets)    
+    df = extract_data(src_file, sheets)
+   
     df1 = df.copy()
     today = format_time('%Y-%m-%d')
     df = df[df['Ship Date'] > today] # Display the shipments after today
     df = df.reset_index(drop=True)
+
     df.to_json('ssc_cmp_data.json', orient='index')    
     # convert dataframe to a compare dictionary
     cmp_dict = reshape_cmp_data('cmp_data.json')  
